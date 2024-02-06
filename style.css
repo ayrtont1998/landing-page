@@ -1,0 +1,97 @@
+*{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/* Header and hero style */
+
+[src]{
+    width: 375px;
+    padding: 8px;
+    /* margin: 16px; */
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+a, .hero-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+/* Logo and links */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 0 auto 32px; 
+    width: auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 475px;
+}
+
+.header {
+    background-color: #1f2937;
+
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+/* Image and title */
+
+.hero {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto 32px;  
+    width: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.information {
+  padding: 8px;  
+  width: 475px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero-text {
+    padding-bottom: 8px;
+}
+
+.button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: solid 0px;
+    color: white;
+    padding: 8px 24px;
+}
