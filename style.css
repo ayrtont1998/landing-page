@@ -1,5 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 *{
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -8,13 +11,12 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-/* Header and hero style */
 
 [src]{
-    width: 375px;
-    padding: 8px;
-    /* margin: 16px; */
-    
+    width: 100%;
+    height: 250px;
+    /* padding: 8px;
+    margin: 16px; */
 }
 
 ul {
@@ -35,16 +37,19 @@ a, .hero-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    /* padding: 8px; */
     margin: 0 auto 32px; 
-    width: auto;
+    /* width: 50%; */
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
-    width: 475px;
+    width: 25%;
 }
 
 .header {
@@ -54,7 +59,10 @@ a, .hero-text {
 
 .links {
     display: flex;
+    justify-content: flex-end;
+    /* justify-content: center; */
     gap: 24px;
+    width: 25%;
 }
 
 /* Image and title */
@@ -62,25 +70,34 @@ a, .hero-text {
 .hero {
     display: flex;
     gap: 16px;
+    /* padding: 8px; */
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin: 0 auto 32px;  
     width: auto;
 }
 
-.title {
+.information {
+  /* padding: 8px;   */
+  width: 24%;
+  /* flex: 0; */
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    flex-shrink: 1;
+}
+
+h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
     padding-bottom: 8px;
-}
-
-.information {
-  padding: 8px;  
-  width: 475px;
-}
-
-h1 {
     margin: 0;
 }
 
@@ -94,4 +111,6 @@ h1 {
     border: solid 0px;
     color: white;
     padding: 8px 24px;
+    width: 25%;
+    flex-shrink: 0;
 }
