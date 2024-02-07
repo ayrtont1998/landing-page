@@ -32,9 +32,9 @@ a, .hero-text {
 
 }
 
-/* Logo and links */
+                                            /* Logo and links */
 .main-header {
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -67,7 +67,7 @@ a, .hero-text {
     width: 25%;
 }
 
-/* Image and title */
+                                            /* Image and title */
 
 .hero {
     display: flex;
@@ -123,7 +123,7 @@ h1 {
     flex-shrink: 0;
 }
 
-/* Main content */
+                                                /* Main content */
 
 .container {
     display: flex;
@@ -173,7 +173,7 @@ h2 {
     margin: 0;
 }
 
-/* Quote */
+                                                        /* Quote */
 
 .quote {
     background-color: #e5e7eb;
@@ -205,7 +205,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Register sign */
+                                                     /* Register sign */
 
 .register {
     display: flex;
@@ -250,7 +250,7 @@ button {
     color: white;
 }
 
-/* Footer */
+                                                        /* Footer */
 
 footer {
     background-color: #1f2937;
